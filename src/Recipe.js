@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import "./Recipe.css";
+import React, { Component } from 'react';
+import './Recipe.css';
 
 class Recipe extends Component {
   render() {
@@ -8,12 +8,12 @@ class Recipe extends Component {
       <li key={index}>{ingredient}</li>
     ));
     return (
-      <div className="recipe-card">
+      <div className='recipe-card'>
         <div>
-          <img className="recipe-card-image" src={img} alt={title} />
+          <img className='recipe-card-image' src={img} alt={title} />
         </div>
-        <div className="recipe-card-content">
-          <h3 className="recipe-title">{title}</h3>
+        <div className='recipe-card-content'>
+          <h3 className='recipe-title'>{title}</h3>
           <h4>Ingredients:</h4>
           <ul>{ingredients}</ul>
           <h4>Instructions:</h4>
